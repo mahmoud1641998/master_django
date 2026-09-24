@@ -1,0 +1,387 @@
+
+<!DOCTYPE html>
+<!-- HTML Basics - Mahmoud Abdelnaby -->
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+
+    <!-- Page title -->
+    <title>HTML Basics - Mahmoud Abdelnaby</title>
+
+    <!-- Internal CSS: Styling the page -->
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f7fb;
+            margin: 0;
+            color: #222;
+        }
+
+        header {
+            background-color: #243b6b;
+            color: white;
+            padding: 25px;
+            text-align: center;
+        }
+
+        section {
+            background-color: white;
+            margin: 20px auto;
+            padding: 20px;
+            max-width: 900px;
+            border-radius: 10px;
+        }
+
+      
+
+        .highlight {
+            color: #1769aa;
+            font-weight: bold;
+        }
+
+        img {
+            border-radius: 8px;
+
+        }
+
+        footer {
+            background-color: #243b6b;
+            color: white;
+            text-align: center;
+            padding: 5px;
+        }
+        #main-link {
+            text-decoration: none;
+            color: green;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- =====================================
+         1. HEADER
+         ===================================== -->
+
+    <header>
+        <h1>HTML Basics</h1>
+        <p>Learn HTML Tags and Attributes</p>
+        <p>Instructor: Mahmoud Abdelnaby</p>
+    </header>
+
+
+    <!-- =====================================
+         2. HEADINGS AND PARAGRAPHS
+         ===================================== -->
+
+    <section>
+
+        <h2>1. Headings and Paragraphs</h2>
+
+        <!-- HTML has six heading levels -->
+        <h1>Heading 1</h1>
+        <h2>Heading 2</h2>
+        <h3>Heading 3</h3>
+        <h4>Heading 4</h4>
+        <h5>Heading 5</h5>
+        <h6>Heading 6</h6>
+
+        <p>
+            This is a paragraph. <hr> <hr>
+            HTML is used to structure web pages.
+        </p>
+
+        <p>
+            This is another paragraph.
+        </p>
+
+    </section>
+
+
+    <!-- =====================================
+         3. TEXT FORMATTING
+         ===================================== -->
+
+    <section>
+
+        <h2>2. Text Formatting Tags</h2>
+
+        <p>
+            <b>Bold text</b>
+        </p>
+
+        <p>
+            <strong>Important text</strong>
+        </p>
+
+        <p>
+            <i>Italic text</i>
+        </p>
+
+        <p>
+            <em>Emphasized text</em>
+        </p>
+
+        <p>
+            <u>Underlined text</u>
+        </p>
+
+        <p>
+            <mark>Highlighted text</mark>
+        </p>
+
+        <p>
+            H<sub>2</sub>O
+        </p>
+
+        <p>
+            X<sup>2</sup>
+        </p>
+
+    </section>
+
+
+    <!-- =====================================
+         4. LINKS AND IMAGES
+         ===================================== -->
+
+    <section>
+
+        <h2 title="mahmoud">3. Links and Images</h2>
+
+        <!--
+            The <a> tag creates a hyperlink.
+            href is an attribute.
+        -->
+
+        <a href="https://www.google.com"
+           target="_self"
+           title="Open Google">
+
+            Visit Google
+
+        </a>
+
+        <br><br>
+
+        <!--
+            The <img> tag displays an image.
+            src = image source
+            alt = alternative text
+            width = image width
+        -->
+
+        <img
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSyPgoZkFZA_rUoeai0EcnJ1GsHVGJY9PpBMwDwKFD3iw&s=10"
+            alt="Sample Car image"
+            width="200px"
+            title="This is an image"
+        >
+
+    </section>
+
+
+    <!-- =====================================
+         5. LISTS
+         ===================================== -->
+
+    <section>
+
+        <h2>4. Lists</h2>
+
+        <h3>Unordered List</h3>
+
+        <ul>
+            <li>Python</li>
+            <li>Data Analysis</li>
+            <li>Machine Learning</li>
+        </ul>
+
+
+        <h3>Ordered List</h3>
+
+        <ol>
+            <li>Learn HTML</li>
+            <li>Learn CSS</li>
+            <li>Learn JavaScript</li>
+        </ol>
+
+    </section>
+
+
+    <!-- =====================================
+         6. DIV AND SPAN
+         ===================================== -->
+
+    <section>
+
+        <h2 class="highlight">5. Containers</h2>
+
+        <!-- div is a block-level container -->
+
+        <div class="highlight">
+
+            This is inside a div.
+
+        </div>
+
+        <br>
+
+        <!-- span is an inline container -->
+
+        <p>
+            This is a
+            <span class="highlight">highlighted word</span>
+            inside a paragraph.
+        </p>
+
+    </section>
+
+
+    <!-- =====================================
+         7. ONE TAG, MULTIPLE ATTRIBUTES
+         ===================================== -->
+
+    <section>
+
+        <h2>6. One Tag, Multiple Attributes</h2>
+
+        <!--
+            The <a> tag has multiple attributes:
+            href, target, title, class, id
+        -->
+
+        <a
+            href="https://www.example.com"
+            target="_blank"
+            title="Visit Example Website"
+            class="highlight"
+            id="main-link"
+        >
+            Visit Example Website
+        </a>
+
+        <p>
+            One tag can contain multiple attributes.
+        </p>
+
+    </section>
+
+
+    <!-- =====================================
+         8. OPENING AND CLOSING TAGS
+         ===================================== -->
+
+    <section>
+
+        <h2>7. Opening and Closing Tags</h2>
+
+        <!-- Normal tag: Opening + Content + Closing -->
+
+        <p>
+            This is a paragraph.
+        </p>
+
+        <div>
+            This is a div container.
+        </div>
+
+        <br>
+
+        <!-- Void elements: No closing tag -->
+
+        <img
+            src="https://placehold.co/200x100"
+            alt="Small example image"
+        >
+
+        <br>
+
+        <hr>
+
+    </section>
+
+
+    
+
+    <!-- =====================================
+         9. FORM
+         ===================================== -->
+
+    <section>
+
+        <h2>8. HTML Form</h2>
+
+        <form>
+
+            <label for="name">Name:</label>
+
+            <input
+                type="text"
+                id="name"
+                name="username"
+                placeholder="Enter your name"
+            >
+
+            <br><br>
+
+            <label for="email">Email:</label>
+
+            <input
+                type="password"
+                id="email"
+                name="email"
+                placeholder="Enter your email"
+            >
+
+            <br><br>
+
+            <label for="course">Choose a course:</label>
+
+            <select id="course" name="course">
+
+                <option>Python</option>
+                <option>Data Analysis</option>
+                <option>Machine Learning</option>
+
+            </select>
+
+            <br><br>
+
+            <textarea
+                rows="4"
+                cols="40"
+                placeholder="  "
+            ></textarea>
+
+            <br><br>
+
+            <button type="submit">
+                Submit
+            </button>
+
+        </form>
+
+    </section>
+
+
+    <!-- =====================================
+         10. FOOTER
+         ===================================== -->
+
+    <footer>
+
+        <p>
+             2026 Mahmoud Abdelnaby
+        </p>
+
+        <p>
+            AI & Data Science Instructor
+        </p>
+
+    </footer>
+
+</body>
+
+</html>
